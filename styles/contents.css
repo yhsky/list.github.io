@@ -1,0 +1,307 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: "SpoqaL";
+	src: url("/fonts/Spoqa/Spoqa-Light.woff") format("woff"), url("/fonts/Spoqa/Spoqa-Light.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SpoqaB";
+	src: url("/fonts/Spoqa/Spoqa-Bold.woff") format("woff"), url("/fonts/Spoqa/Spoqa-Bold.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SpoqaR";
+	src: url("/fonts/Spoqa/Spoqa-Regular.woff") format("woff"), url("/fonts/Spoqa/Spoqa-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SpoqaT";
+	src: url("/fonts/Spoqa/Spoqa-Thin.woff") format("woff"), url("/fonts/Spoqa/Spoqa-Thin.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NotoL";
+	src: url("/fonts/Noto/notokr-light.woff") format("woff"), url("/fonts/Noto/notokr-light.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NotoR";
+	src: url("/fonts/Noto/notokr-regular.woff") format("woff"), url("/fonts/Noto/notokr-regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NotoM";
+	src: url("/fonts/Noto/notokr-medium.woff") format("woff"), url("/fonts/Noto/notokr-medium.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NotoB";
+	src: url("/fonts/Noto/notokr-bold.woff") format("woff"), url("/fonts/Noto/notokr-bold.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "ManropeL";
+	src: url("/fonts/Manrope/Manrope-Light.woff") format("woff"), url("/fonts/Manrope/Manrope-Light.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "ManropeB";
+	src: url("/fonts/Manrope/Manrope-Bold.woff") format("woff"), url("/fonts/Manrope/Manrope-Bold.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SpoqaHanSansL";
+	src: url("/fonts/Spoqa/SpoqaHanSans-Light.woff") format("woff"), url("/fonts/Spoqa/SpoqaHanSans-Light.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SpoqaHanSansB";
+	src: url("/fonts/Spoqa/SpoqaHanSans-Bold.woff") format("woff"), url("/fonts/Spoqa/SpoqaHanSans-Bold.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SpoqaHanSansR";
+	src: url("/fonts/Spoqa/SpoqaHanSans-Regular.woff") format("woff"), url("/fonts/Spoqa/SpoqaHanSans-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SpoqaHanSansT";
+	src: url("/fonts/Spoqa/SpoqaHanSans-Thin.woff") format("woff"), url("/fonts/Spoqa/SpoqaHanSans-Thin.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+    height:100%;
+}
+body {
+    height:100%;
+}
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, thead, tbody, tr, th, td, form, fieldset, legend, input, textarea, button {
+    margin:0; padding:0; font-weight:normal;
+}
+body, input, select, div, textarea, table, button {
+    font-size: 16px;
+	font-family: "ManropeR", "NotoR", serif;
+	font-weight: normal;
+	line-height: 1.5;
+	word-break: break-word;
+}
+table {
+    width:100%; 
+    border:0; 
+    border-spacing:0px; 
+    border-collapse:collapse;
+}
+option {
+    vertical-align:middle; 
+    padding:3px 0;
+}
+legend {
+    display:none; 
+    visibility:hidden;
+}
+img, fieldset, button {
+    vertical-align:middle; 
+    border:0;
+}
+ul, ol {
+    list-style:none;
+}
+em, address {
+    font-style:normal;
+}
+hr {
+    display:none; visibility:hidden;
+}
+button {
+    cursor:pointer;
+}
+caption  {
+    height: 0; 
+    width: 0; 
+    font-size: 0; 
+    line-height: 0; 
+    margin: 0; 
+    padding: 0;
+}
+input, textarea, button {
+    line-height: 1.5; 
+    vertical-align: middle;
+}
+textarea {
+    resize:none;
+}
+i {
+    font-style:normal;
+}
+/*input*/
+
+::-webkit-input-placeholder {
+    text-align:left;
+}
+input:-moz-placeholder {
+    text-align:left;
+}
+::-moz-placeholder {
+    text-align:left;
+}
+:-ms-input-placeholder {
+    text-align:left;
+}
+
+input[type=password] {
+    font-family: "ManropeR", "NotoR", serif;
+}
+input[type=text], input[type=password] {
+    background:#ffffff; 
+    vertical-align:middle; 
+    border:0 none;
+}
+textarea {
+    background:#ffffff; 
+    width:100%; 
+    height:100px; 
+    padding:4px 0 1px 0; 
+    vertical-align:middle;
+}
+select {
+    border:1px solid #cccccc; 
+    height:24px; 
+    padding:3px 3px 3px 4px; 
+    vertical-align: middle; 
+    line-height:24px;
+}
+input[type="file"] {
+    vertical-align:middle;
+}
+input[type="checkbox"],input[type="radio"] {
+    margin:0; 
+    padding:0; 
+    vertical-align:middle; 
+    width:13px; 
+    height:13px; 
+    line-height:13px; 
+    border:0 none;
+}
+label {
+
+}
+a {
+    text-decoration:none; 
+    color:#666666;
+}
+a:hover, a:active, a:focus{
+    text-decoration:none;
+}
+.hide {
+    position:absolute;
+    top:-9999px;
+    display:block; 
+    height: 0; 
+    width: 0; 
+    font-size: 0; 
+    line-height: 0; 
+    margin: 0; 
+    padding: 0; 
+    overflow:hidden; 
+    opacity:0;
+}
+.letter {
+    letter-spacing:-1px;
+}
+.clear {
+	content: '';
+	display: block;
+	clear: both;
+}
+.hidden {
+	position: absolute;
+	font: 0/0 a;
+	visibility: hidden;
+}
+.clfix:after {
+    content:'.'; 
+    display:block; 
+    height:0px; 
+    clear:both; 
+    visibility:hidden;
+}
+.clfix {
+    display:block;
+}
+strong {
+    font-weight:normal;
+}
+
+/* 언더라인 */
+.uline {
+    text-decoration:underline !important;
+}
+
+/* 말줄임 한줄 처리 */
+.txt_dotdot {
+    width:100%; 
+    text-overflow:ellipsis;  
+    white-space:nowrap; 
+    overflow:hidden;
+}
+
+
+/* ALIGN */
+.alC {
+    text-align:center !important;
+}
+.alL {
+    text-align:left !important;
+}
+.alR {
+    text-align:right !important;
+}
+.alJ {
+    text-align:justify !important;
+}
+
+.txt-bold {
+	font-family: "ManropeB", "NotoB", serif;
+	font-weight: normal;
+}
+
+.txt-hide {
+	font: 0/0 a;
+}
+
+.none {
+	display: none !important;
+}
+
+.inline-block {
+	display: inline-block;
+}
