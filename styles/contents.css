@@ -324,10 +324,17 @@ strong {
 .cont_list .cont_list_tit{
     
 }
-.cont_list .cont_list_txt_box{
-    
+.cont_list .cont_list_box{
+    display: flex;
+    padding: 20px 0;
 }
-.cont_list .cont_list_txt{
+.cont_list .cont_list_txt_box{
+    margin: 0 0 0 40px;
+}
+.cont_list .cont_list_txt_box:first-child{
+    margin:0;
+}
+.cont_list_tit{
     color: #333;
     font-size: 16px;
     font-weight: 700;
@@ -336,7 +343,16 @@ strong {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.cont_list .cont_list_txt_box div{
+.cont_list .cont_list_txt{
     font-size: 13px;
     color: #666;
+    font-weight: 700;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.cont_list .cont_list_txt_box div{
+    font-size: 13px;
+    color: #999;
 }
