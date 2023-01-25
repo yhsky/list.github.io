@@ -276,12 +276,16 @@ strong {
     font-size: 22px;
     color: #000;
 }
+.content_box .cont_btn_box button:first-child{
+    margin:0;
+}
 .content_box .cont_btn_box button{
     position: relative;
     font-size: 17px;
     letter-spacing: -1px;
     color: #fff;
     font-weight: 700;
+    margin-left: 40px;
 }
 .content_box .cont_btn_box button:after {
     position: absolute;
