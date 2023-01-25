@@ -305,3 +305,31 @@ strong {
 .content_box .cont_btn_box button.active::after{
     display:block;
 }
+.cont_list{
+
+}
+.cont_list ul{
+    
+}
+.cont_list li{
+    
+}
+.cont_list .cont_list_tit{
+    
+}
+.cont_list .cont_list_txt_box{
+    
+}
+.cont_list .cont_list_txt{
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.cont_list .cont_list_txt_box div{
+    font-size: 13px;
+    color: #666;
+}
