@@ -243,7 +243,7 @@ strong {
     width: 200px;
     min-height: 140px;
 }
-.top_box .top_cont li:nth-of-type(5n-1){
+.top_box .top_cont li:nth-of-type(6n-1){
     margin-left:0;
 }
 .top_box .top_cont .top_box_h1{
