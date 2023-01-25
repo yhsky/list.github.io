@@ -104,7 +104,8 @@ select {
 input[type="file"] {
     vertical-align:middle;
 }
-input[type="checkbox"],input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
     margin:0; 
     padding:0; 
     vertical-align:middle; 
@@ -112,9 +113,6 @@ input[type="checkbox"],input[type="radio"] {
     height:13px; 
     line-height:13px; 
     border:0 none;
-}
-label {
-
 }
 a {
     text-decoration:none; 
@@ -206,4 +204,28 @@ strong {
 
 .inline-block {
 	display: inline-block;
+}
+
+
+/* 컨텐츠 */
+#wrap{
+    position: relative;
+    min-width: 1270px;
+    margin: 0 auto;
+    background: #f2f4f7;
+}
+.main_wrap{
+    width: 1260px;
+    margin: 60px auto 0;
+}
+.main_wrap *{
+    box-sizing: border-box;
+}
+.top_box{
+    border-bottom:1px solid #eee;
+    padding:30px;
+}
+.top_box .tit{
+    font-size: 22px;
+    color: #000;
 }
