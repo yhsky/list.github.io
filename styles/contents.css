@@ -319,6 +319,10 @@ strong {
 .cont_list{
     border-top: 1px solid #eee;
     margin: 10px 0 0 0;
+    display:none;
+}
+.cont_list.active{
+    display:block;
 }
 .cont_list li{
     border-bottom: 1px solid #eee;
