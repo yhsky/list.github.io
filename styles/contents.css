@@ -277,10 +277,14 @@ strong {
     border: 1px solid #ccc;
     border-radius: 10px;
     background: #fff;
+    margin: 50px 0 0 0;
 }
 .content_box .cont_tit{
     font-size: 22px;
     color: #000;
+}
+.content_box .cont_btn_box{
+    margin:20px 0 0 0;
 }
 .content_box .cont_btn_box button:first-child{
     margin:0;
@@ -313,13 +317,12 @@ strong {
     display:block;
 }
 .cont_list{
-
-}
-.cont_list ul{
-    
+    border-top: 1px solid #eee;
+    margin: 10px 0 0 0;
 }
 .cont_list li{
     border-bottom: 1px solid #eee;
+    padding: 20px;
 }
 .cont_list li:hover{
     background-color: #f6fafd;
@@ -329,7 +332,7 @@ strong {
 }
 .cont_list .cont_list_box{
     display: flex;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
 }
 .cont_list .cont_list_txt_box{
     margin: 0 0 0 40px;
