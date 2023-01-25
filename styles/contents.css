@@ -216,7 +216,7 @@ strong {
 }
 .main_wrap{
     width: 1260px;
-    margin: 60px auto 0;
+    margin: 0 auto;
 }
 .main_wrap *{
     box-sizing: border-box;
