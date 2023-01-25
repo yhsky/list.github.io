@@ -271,6 +271,9 @@ strong {
 
 .content_box{
     padding:30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
 }
 .content_box .cont_tit{
     font-size: 22px;
