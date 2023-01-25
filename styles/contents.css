@@ -229,3 +229,32 @@ strong {
     font-size: 22px;
     color: #000;
 }
+.top_box .top_cont ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.top_box .top_cont li{
+    padding: 20px;
+    background: #fff;
+}
+.top_box .top_cont .top_box_h1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.5;
+}
+.top_box .top_cont div{
+    font-size: 13px;
+    color: #666;
+}
+.top_box .top_cont .top_box_info{
+    font-size: 13px;
+    color: #999;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
