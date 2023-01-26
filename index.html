@@ -581,8 +581,13 @@
     <script>
         $(document).ready(function(){
             $('.cont_btn_box button').click(function(){
-                $(this).toggleClass('active');
-                $(this).next('.cont_list').toggleClass('active');
+                if($(this).hasClass('active')){
+                    $(this).removeClass('active');
+                    $(this).parents('.cont_btn_box').sibligs('.cont_list').removeClass('active');
+                }else {
+                    $(this).addClass('active');
+                    $(this).parents('.cont_btn_box').sibligs('.cont_list').addClass('active');
+                }
             });
         });
     </script>
