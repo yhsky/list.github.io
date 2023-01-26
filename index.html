@@ -580,13 +580,23 @@
     </section>
     <script>
         $(document).ready(function(){
-            $('.cont_btn_box button').click(function(){
-                if($(this).hasClass('active')){
+            $('.cont_btn_box .cont_btn_01').click(function(){
+                if($(this).parents('.cont_btn_box').find('.cont_btn_02').hasClass('active')){
                     $(this).removeClass('active');
-                    $(this).parents('.cont_btn_box').sibligs('.cont_list').removeClass('active');
+                    $(this).parents('.cont_btn_box').sibligs('.cont_list_01').removeClass('active');
                 }else {
                     $(this).addClass('active');
-                    $(this).parents('.cont_btn_box').sibligs('.cont_list').addClass('active');
+                    $(this).parents('.cont_btn_box').sibligs('.cont_list_01').addClass('active');
+                }
+            });
+
+            $('.cont_btn_box .cont_btn_02').click(function(){
+                if($(this).parents('.cont_btn_box').find('.cont_btn_01').hasClass('active')){
+                    $(this).removeClass('active');
+                    $(this).parents('.cont_btn_box').sibligs('.cont_list_02').removeClass('active');
+                }else {
+                    $(this).addClass('active');
+                    $(this).parents('.cont_btn_box').sibligs('.cont_list_02').addClass('active');
                 }
             });
         });
